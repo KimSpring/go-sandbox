@@ -1,3 +1,5 @@
+//go:build linux || darwin
+
 // Package rlimit provides data structure for resource limits by setrlimit syscall on linux.
 package rlimit
 
